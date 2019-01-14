@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <title>회원가입 폼</title>
+<head>
+</head>
+
+<body>
+    <form action="test.html">
+        <table border="1">
+            <tr>
+                <td>아이디</td>
+                <td> <input type="text" name="name" size="7">
+                    <button> 중복검사 </button> </td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td> <input type="text" name="name" size="7"> </td>
+            </tr>
+            <tr>
+                <td>주민번호</td>
+                <td> <input type="text" name="name" size="20"> 예)000000-0000000 </td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td> <input type="text" name="name" size="25"> </td>
+            </tr>
+            <tr>
+                <td>집전화</td>
+                <td> <input type="text" name="name" size="1">-
+                    <input type="text" name="name" size="2">-
+                    <input type="text" name="name" size="2"> </td>
+            </tr>
+            <tr>
+                <td>휴대전화</td>
+                <td> <input type="text" name="name" size="1">-
+                    <input type="text" name="name" size="2">-
+                    <input type="text" name="name" size="2"> </td>
+            </tr>
+            <tr>
+                <td>주소검색</td>
+                <td> <input type="text" name="name" size="30">
+                    <button>검색하기</button> </td>
+            </tr>
+            <tr>
+                <td>주소</td>
+                <td> <select name="loc">
+                        <option> 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+                            <!--ㄱ+한자+1로 특수문자 공백처리-->
+                        </option>
+                        <option>서울</option>
+                        <option>부산</option>
+                        <option>대구</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>상세주소</td>
+                <td><input type="text" name="name" size="68"></td>
+            </tr>
+            <tr>
+                <td>학력</td>
+                <td><select name="grade">
+                        <option> 중졸 </option>
+                        <option> 고졸 </option>
+                        <option> 대학재학 </option>
+                        <option> 대학졸업 </option>
+                    </select> </td>
+            </tr>
+            <tr>
+                <td>홍보매체</td>
+                <td><select name="how">
+                        <option>▒어떻게 알게 되었나요?▒</option>
+                        <!--ㅁ+한자+이후 내림으로 특수문자 처리-->
+                        <option> </option>
+                        <option> </option>
+                        <option> </option>
+                    </select> </td>
+            </tr>
+            <tr>
+                <td>메일수신</td>
+                <td><input type="checkbox">
+                    <small>네. KH정보교육원에서 제공하는 정보메일 수신에 동의합니다. </small></td>
+            </tr>
+            <tr>
+                <td>교육장소</td>
+                <td><select name="where">
+                        <option>선택하세요</option>
+                        <option>서울</option>
+                        <option>부산</option>
+                        <option>대구</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td> <input type="password" name="pw" size="12"> 확인
+                    <input type="password" name="pw" size="12"> </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="회원가입">
+        <input type="reset">
+    </form>
+</body>
+
+</html>

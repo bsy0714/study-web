@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.k {
+    display: grid;
+    grid-template-columns:1fr auto 1fr ;
+}
+.k .c{
+    width: 800px;
+    text-align: center;
+    position: relative;
+    align-content: space-around;
+}
+header {
+    color: coral;
+    margin: 20px 0;
+}
+button {
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+    height: 30px;
+    width: 180px;
+}
+nav {
+    margin: 8px 0;
+}
+.r {
+    margin: 130px 0 0 0;
+    font-size: 150%;
+}
+div .h{
+    display: grid;
+    grid-template-columns:33% 34% 33%;
+    padding: 2px;
+}
+.h .h1{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img4.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+.h .h2{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img3.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+ .h .h3{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img1.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+
+.h .h4{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img2.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+.h .h5{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img6.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+.h .h6{
+    color: white;
+    display: inline-block;
+    background-image: url(../images/img5.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border: 15px solid white;
+}
+div .t{
+    margin: 20px 0;
+}
+
+/*space around 사용
+가운데 글자 : absoulte or 다른방법

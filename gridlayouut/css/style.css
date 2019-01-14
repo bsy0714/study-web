@@ -1,0 +1,30 @@
+.grid-container {
+    border: 10px solid blue;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+.grid-item {
+    background-color: rgba(158, 216, 243, 0.8);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.header{
+    grid-column: 3 span;
+}
+.aside {
+    grid-row: 2 span;
+}
+.nav {
+    grid-row: 2 span;
+}
+.photo {
+    grid-column: 2 span;
+}
+.section {
+    grid-column: 3 span;
+}
+.footer {
+    grid-column: 4 span;
+}

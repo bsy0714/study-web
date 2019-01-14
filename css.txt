@@ -1,0 +1,9 @@
+css
+
+documetation - 문저
+dom - section > <> ...body내부 모든 명령어
+
+구획 찾기 + 디자인(변경/생성)
+
+html : <> 속성값 : ="">
+css : 속성값 {} : ;
