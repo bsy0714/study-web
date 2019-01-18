@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>회원가입</title>
+    <style>
+        main {
+            padding: 0px 0px 0px 0px;
+            margin: 0px auto;
+            width: 100%;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 29% 40% 29%;
+        }
+
+        .he {
+            text-align: center;
+        }
+
+        span {
+            color: darkcyan;
+        }
+        .c {
+            text-align: center;
+            margin: 10px 0px;
+        }
+        .c1 input{
+            width: 99%;
+            height: 20px;
+            font-size: 16px;
+            margin: 10px 0px;
+        }
+        .d1 {
+            position: relative;
+            margin: 0px auto;
+            background-color: white;
+            text-align: center;
+            top: -20px;
+            width: 70px;
+        }
+        .tx {
+            color: tomato;
+        }
+        .q {
+            font-size: 90%;
+        }
+        select{
+            margin: 15px 0;
+            width: 30%;
+            height: 40px;
+        }
+        .en {
+            text-align: center;
+            margin: 20px 20px;
+            width: 90%;
+            font-size: 90%;
+            display: grid;
+            grid-template-columns: 1fr auto;
+        }
+        .g input{
+            margin: 10px 0 0 0 ;
+            background-color: crimson;
+            width: 100%;
+            height: 30px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div></div>
+        <form action="airbnb.html" method="get">
+            <div class="t">
+                <div class="c">
+                    <br><br>
+                    <span>페이스북</span> 또는 <span>구글</span>로 회원 가입하세요
+
+                    <br><br>
+                </div>
+                <hr>
+                <div class="d1">
+                    또는
+                </div>
+                <div class="c1">
+                    <input type="email" name="email" placeholder="이메일 주소">
+                </div>
+                <div class="c1">
+                    <input type="name" name="name" placeholder="이름(예: 길동)">
+                </div>
+                <div class="c1">
+                    <input type="name" name="Famali-name" placeholder="성(예: 홍">
+                </div>
+                <div class="c1">
+                    <input type="password" name="pw" placeholder="비밀번호">
+                </div>
+                <div class="tx">X 비밀번호 보안 수준: 약함<br>
+                    X 이름이나 이메일 주소를 포함할 수 없습니다<br>
+                    X 최소 8자<br>
+                    X 숫자나 기호를 포함하세요<br></div>
+                <div class="q">
+                    <h2>생일</h2>회원 가입을 하시려면 만 18세 이상이어야 합니다. 생일은 다른 회원에게는 공개되지 않습니다.
+                </div>
+                <div>
+                    <div>
+                        <select name="month">
+                            <option value="month">
+                                월
+                            </option>
+                            <option value="month">
+                                1월
+                            </option>
+                            <option value="month">
+                                2월
+                            </option>
+                            <option value="month">
+                                3월
+                            </option>
+                            <option value="month">
+                                4월
+                            </option>
+                            <option value="month">
+                                5월
+                            </option>
+                            <option value="month">
+                                6월
+                            </option>
+                            <option value="month">
+                                7월
+                            </option>
+                            <option value="month">
+                                8월
+                            </option>
+                            <option value="month">
+                                9월
+                            </option>
+                            <option value="month">
+                                10월
+                            </option>
+                            <option value="month">
+                                11월
+                            </option>
+                            <option value="month">
+                                12월
+                            </option>
+                        </select>
+                        <select name="day">
+                            <option value="day">
+                                일
+                            </option>
+                        </select>
+                        <select name="year">
+                            <option value="day">
+                                년
+                            </option>
+                        </select>
+                    </div>
+                    <div style="font-size:90%">에어비앤비의 마케팅 프로모션, 특별 할인 및 추천 여행 정보, 정책 변경사항을 이메일로 보내드립니다.<br></div>
+                    <div></div>
+                </div>
+                <div class="g">
+                        <input type="submit" value="가입하기">
+                    </div>
+                
+                <div class="en">
+                    <div>
+                        <br>
+                <input type="checkbox">    
+            </div>
+            <div>
+                    에어비앤비에서 보내는 마케팅 메시지를 받고 싶지 않습니다. 계정 관리 설정 또는 메시지의 링크에서 언제든지 수신을 거부할 수 있습니다.
+                </div>
+                </div>
+            </div>
+        </form>
+        <div></div>
+    </main>
+</body>
+
+</html>

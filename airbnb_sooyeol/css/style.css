@@ -1,0 +1,318 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 760px;
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+}
+.he .g1 {
+    width: 28px;
+    height: 28px;
+    background-image: url(/images/logo.png);
+    background-size: 100% 100%;
+    margin: 20px 20px;
+}
+.he {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+.he1 {
+    font-size: 14px;
+}
+.ch input{
+    width: 350px;
+    padding: 3px 6px;
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+}
+.in .c1{
+    width: 170px;
+    padding: 3px 6px;
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+}
+.ek input{
+    width: 350px;
+    padding: 3px 6px;
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+}
+.ha {
+    width: 100%;
+    height: 400px;
+}
+.hf {
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-size: 100%;
+}
+
+.g1 {
+    width: 10%;
+    display: inline-block;
+}
+.g2 {
+    width: 50%;
+    display: inline-block;
+}
+.g3 {
+    margin: 20px 20px 20px 0;
+    right: 0px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 140px 80px 80px 60px;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+}
+.g3 a{
+    color: white;
+    text-decoration: none;
+}
+.ha .in {
+    background-color: white;
+    margin: 20px 0 0 270px;
+    width: 400px;
+    height: 430px;
+}
+.ha .in .he {
+    padding: 20px;
+    font-size: 110%;
+}
+.in .he .e{
+    text-align: center;
+}
+.in .ch {
+    padding: 10px 20px;
+}
+.in .check{
+    padding: 10px 20px;
+}
+.in .ek {
+    padding: 10px 20px;
+}
+.check div {
+    display: inline-block;
+}
+.in .sea {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 15px 15px 0 300px;
+    background-color: palevioletred;
+    color: white;
+}
+.hf .ab {
+    padding: 0 0 0 330px;
+}
+.hf .ac {
+    padding: 70px 5px 20px 0;
+    text-align: right;
+}
+.gr {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.as {
+    height: 100px;
+}
+.as .ag {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+}
+.as .a1 {
+    border: 1px gray solid;
+    display: grid;
+    grid-template-columns: 80px auto;
+
+}
+.as .a1 .pic{
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg);
+    background-size: 80px 80px;
+    display: inline-block;
+}
+.as .t {
+    display: grid;
+    display: inline-block;
+    grid-template-columns: 80px auto;
+    margin: 10px 10px 20px 0;
+}
+.as .nam {
+    height: 80px;
+    width: 200px;
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.as .a2 {
+    border: 1px gray solid;
+    display: grid;
+    grid-template-columns: 80px 20px;
+
+}
+.as .a2 .pic{
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/cb8b3101-d419-4c17-8e2f-4989b39b98c3.jpg);
+    background-size: 80px 80px;
+    display: inline-block;
+}
+.as .a3 {
+    border: 1px gray solid;
+    display: grid;
+    grid-template-columns: 80px 20px;
+
+}
+.as .a3 .pic{
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/da2d8e97-90b7-409f-94ac-5ab0327c289b.jpg);
+    background-size: 80px 80px;
+    display: inline-block;
+}
+.ma {
+    height: 150px;
+}
+.mb .gr1 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.gr .c {
+    height: 270px;
+    width:  220px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+.gr .c .r{
+    top: 190px;
+}
+.gr .c1 {
+    height: 270px;
+    width:  215px;
+    background-image: url(../images/파리.jpg);
+    background-size: 100% 100%;
+}
+.gr .c2 {
+    height: 270px;
+    width:  215px;
+    background-image: url(../images/도쿄.jpg);
+    background-size: 100% 100%;
+}
+.gr .c3 {
+    height: 270px;
+    width:  215px;
+    background-image: url(../images/런던.jpg);
+    background-size: 100% 100%;
+}
+.gr .c4 {
+    height: 270px;
+    width:  215px;
+    background-image: url(../images/LA.jpg);
+    background-size: 100% 100%;
+}
+.gr .c5 {
+    height: 270px;
+    width:  215px;
+    background-image: url(../images/바르셀로나.jpg);
+    background-size: 100% 100%;
+}
+.gr .c .r {
+    position: relative;
+    padding: 200px auto;
+}
+.md1 {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.md .in {
+    display: inline-block;
+}
+.md2 {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.md .st {
+    background-image: url(../images/star.png);
+    background-size: 100% 100%;
+    height: 15px;
+    width: 80px;
+}
+.md .d {
+    display: inline-block;
+}
+.md .ing{
+    display: grid;
+    grid-template-columns: 26px 82px 20px;
+    color: green;
+}
+.md .in {
+    font-size: 80%;
+}
+.md .ph {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/리마.jpg);
+    background-size: 100% 100%;
+}
+.md .ph1 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/피닉스.jpg);
+    background-size: 100% 100%;
+}
+.md .ph2 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/쿠알라롬푸르.jpg);
+    background-size: 100% 100%;
+}
+.md .ph3 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/리스본.jpg);
+    background-size: 100% 100%;
+}
+.md2 .ph {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/세인트조지.jpg);
+    background-size: 100% 100%;
+}
+.md2 .ph1 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/빅아일랜드.jpg);
+    background-size: 100% 100%;
+}
+.md2 .ph2 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/플로리아노폴리스.jpg);
+    background-size: 100% 100%;
+}
+.md2 .ph3 {
+    height: 200px;
+    width: 270px;
+    background-image: url(../images/오아후.jpg);
+    background-size: 100% 100%;
+}
+.end{
+    color: darkcyan;
+}
